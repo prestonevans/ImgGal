@@ -5,15 +5,22 @@
 }
 $trans: .5s ease-in-out;
 body {
+	min-height: 100vh;
+}
+.container {
 	height: 100vh;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	justify-content: center;
 }
+.black {
+	background-color: black;
+}
 .gallery {
-	width: 80%;
-	height: 60%;
+	width: 80vw;
+	height: 60vh;
 	background-color: transparent;
 	display: flex;
 	gap: 1em;
